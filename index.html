@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="css-reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div class="main">
+    <h1>Список делов</h1>
+
+    <form class="new-todo-form" id="new-todo-form">
+        <div>
+            <label class="new-todo-text-field-label" for="new-todo-text-field">Введите текст заметки</label>
+        </div>
+
+        <div>
+            <input class="new-todo-text-field" id="new-todo-text-field" type="text">
+
+            <span class="error-message">Необходимо ввести какой-то текст</span>
+        </div>
+
+        <button class="add-new-todo-item-button" type="submit">Добавить</button>
+    </form>
+</div>
+
+<ul class="todo-list" id="todo-list"></ul>
+</body>
+</html>

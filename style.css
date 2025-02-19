@@ -1,0 +1,114 @@
+.main {
+    background-color: #a7d9fb;
+    padding: 5px 0;
+    text-align: center;
+    max-width: 344px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.main h1 {
+    font-size: 46px;
+}
+
+.new-todo-text-field {
+    width: 75%;
+    margin: 5px;
+}
+
+.error-message {
+    color: #f00;
+    text-align: center;
+    padding-bottom: 5px;
+    display: none;
+}
+
+.invalid {
+    border: #f00 solid 1px;
+}
+
+.invalid ~ .error-message {
+    display: block;
+}
+
+.todo-list {
+    padding-left: 0;
+    max-width: 344px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.todo-list li {
+    list-style-type: none;
+    background-color: #f5f5dc;
+}
+
+.todo-list li:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.todo-list li:hover {
+    background-color: #ddd;
+}
+
+.new-todo-item div {
+    vertical-align: middle;
+}
+
+.todo-text {
+    padding: 5px;
+    display: inline-block;
+    max-width: 200px;
+    width: 100%;
+}
+
+.edit-todo-div {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+}
+
+.edit-todo-text-field {
+    width: 95%;
+    margin: 4px 5px;
+    border-width: 1px;
+}
+
+.buttons {
+    display: inline-block;
+    max-width: 140px;
+    width: 100%;
+}
+
+.buttons-text-field-one-line {
+    vertical-align: top;
+    margin-top: 2px;
+}
+
+.add-new-todo-item-button {
+    padding: 1px 3px;
+    cursor: pointer;
+}
+
+.buttons button {
+    padding: 1px 3px;
+    cursor: pointer;
+}
+
+.edit-button {
+    width: 84px;
+}
+
+.delete-button {
+    width: 53px;
+}
+
+.save-button {
+    width: 84px;
+}
+
+.cancel-button {
+    width: 53px;
+}
