@@ -60,13 +60,13 @@
 .todo-text {
     padding: 5px;
     display: inline-block;
-    max-width: 198px;
+    max-width: 177px;
     width: 100%;
 }
 
 .edit-todo-div {
     width: 100%;
-    max-width: 198px;
+    max-width: 177px;
     display: inline-block;
 }
 
@@ -78,9 +78,8 @@
 
 .buttons {
     display: inline-block;
-    max-width: 140px;
+    max-width: 162px;
     width: 100%;
-    text-align: center;
 }
 
 .buttons-text-field-one-line {
@@ -99,17 +98,17 @@
 }
 
 .edit-button {
-    width: 84px;
+    width: 95px;
 }
 
 .delete-button {
-    width: 53px;
+    width: 64px;
 }
 
 .save-button {
-    width: 84px;
+    width: 95px;
 }
 
 .cancel-button {
-    width: 53px;
+    width: 64px;
 }
