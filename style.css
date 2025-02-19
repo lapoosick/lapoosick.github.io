@@ -60,13 +60,13 @@
 .todo-text {
     padding: 5px;
     display: inline-block;
-    max-width: 200px;
+    max-width: 198px;
     width: 100%;
 }
 
 .edit-todo-div {
     width: 100%;
-    max-width: 200px;
+    max-width: 198px;
     display: inline-block;
 }
 
@@ -80,6 +80,7 @@
     display: inline-block;
     max-width: 140px;
     width: 100%;
+    text-align: center;
 }
 
 .buttons-text-field-one-line {
